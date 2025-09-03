@@ -4,7 +4,7 @@ const wordCategories = {
   "Fruits": [
     { word: "apple", hint: "orchard" },
     { word: "banana", hint: "yellow" },
-    { word: "orange", hint: "citrus" },
+    { word: "orange", hint: "peel" },
     { word: "grape", hint: "vine" },
     { word: "watermelon", hint: "summer" },
     { word: "kiwi", hint: "fuzzy" },
@@ -24,14 +24,14 @@ const wordCategories = {
     { word: "beach", hint: "sand" },
     { word: "forest", hint: "trees" },
     { word: "desert", hint: "dry" },
-    { word: "island", hint: "isolated" }
+    { word: "island", hint: "coconut" }
   ],
   "Food": [
     { word: "pizza", hint: "slice" },
     { word: "burger", hint: "patty" },
     { word: "sushi", hint: "rice" },
-    { word: "pasta", hint: "noodle" },
-    { word: "salad", hint: "leafy" },
+    { word: "pasta", hint: "sauce" },
+    { word: "salad", hint: "leaf" },
     { word: "taco", hint: "shell" }
   ],
   "Music": [
@@ -51,7 +51,7 @@ const wordCategories = {
   "Technology": [
     { word: "robot", hint: "metal" },
     { word: "iPhone", hint: "touch" },
-    { word: "PlayStation", hint: "console" },
+    { word: "PlayStation", hint: "controller" },
     { word: "Tesla", hint: "electric" },
     { word: "laptop", hint: "portable" },
     { word: "printer", hint: "paper" },
@@ -59,30 +59,30 @@ const wordCategories = {
   ],
   "Brands": [
     { word: "Nike", hint: "shoes" },
-    { word: "Coca-Cola", hint: "soda" },
+    { word: "Coca-Cola", hint: "polar bear" },
     { word: "McDonald's", hint: "burger" },
     { word: "Samsung", hint: "electronics" },
     { word: "Google", hint: "search" },
-    { word: "Amazon", hint: "shopping" },
+    { word: "Amazon", hint: "shop" },
     { word: "Adidas", hint: "sports" }
   ],
   "School": [
-    { word: "homework", hint: "assignment" },
+    { word: "homework", hint: "assign" },
     { word: "teacher", hint: "classroom" },
     { word: "backpack", hint: "carry" },
-    { word: "exam", hint: "test" },
+    { word: "exam", hint: "school" },
     { word: "desk", hint: "seat" },
     { word: "notebook", hint: "pages" },
-    { word: "chalk", hint: "board" }
+    { word: "chalk", hint: "messy" }
   ],
   "Work": [
     { word: "meeting", hint: "agenda" },
     { word: "email", hint: "inbox" },
     { word: "deadline", hint: "urgent" },
-    { word: "office", hint: "cubicle" },
+    { word: "office", hint: "job" },
     { word: "boss", hint: "manager" },
-    { word: "resume", hint: "apply" },
-    { word: "project", hint: "task" }
+    { word: "resume", hint: "type" },
+    { word: "water", hint: "clear" }
   ]
 };
 
@@ -216,3 +216,4 @@ function startGame(numPlayers) {
 }
 
 render();
+
